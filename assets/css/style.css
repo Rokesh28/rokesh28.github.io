@@ -1272,7 +1272,7 @@ form .button-area {
   background: rgba(143, 235, 125, 0.6);
   position: relative;
   z-index: 1;
-  border-radius: 20rem 20rem 20rem 20rem;
+  border-radius: 18rem 18rem 18rem 18rem;
 }
 .footer .box-container {
   display: flex;
@@ -1315,6 +1315,15 @@ form .button-area {
   text-transform: none;
   display: flex;
   justify-content: left;
+}
+.footer .box-container .box .end p {
+  font-size: 1.5rem;
+  color: #ccc;
+  padding: 0.7rem 0;
+  text-transform: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 .footer .box-container .box p i {
   padding-right: 1rem;
