@@ -362,6 +362,8 @@ header .navbar ul li a:hover {
 @media (max-width: 450px) {
   .home .btn {
     margin: 4rem 0;
+    justify-content: center;
+    margin-left:30%
   }
   .socials {
     margin-top: 12rem;
@@ -1265,6 +1267,8 @@ form .button-area {
   display: flex;
   justify-content: center;
 }
+
+
 .footer .box-container .box .contactinfo h3 {
   font-size: 2.5rem;
   color: #000000;
@@ -1291,7 +1295,7 @@ form .button-area {
   color: rgb(238, 238, 238);
   padding: 0.3rem 0;
   display: block;
- padding-left: 20%;
+  padding-left: 20%;
 }
 .footer .box-container .box .contnum p {
   font-size: 1.5rem;
@@ -1366,9 +1370,48 @@ form .button-area {
   }
   .footer .box-container .box p {
     padding: 0.7rem;
+    
+  }
+  .footer .box-container .box .contnum p {
+    padding: 0.7rem;
+    justify-content: left;
+    padding-left: 20%;
+  }
+  .footer .box-container .box .share{
+    /* padding: 1.2rem; */
+    justify-content: center;
+    
   }
   .footer .box-container .box .share a {
     padding: 1.2rem;
+    justify-content: center;
+  }
+  .footer .box-container .box .quickcall h3 {
+    font-size: 2.5rem;
+    color: #000000;
+    padding-bottom: 1rem;
+    font-weight: normal;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    padding-left: 0%;
+  }
+  .footer .box-container .box a {
+    font-size: 1.5rem;
+    color: rgb(238, 238, 238);
+    padding: 0.3rem 0;
+    display: block;
+    padding-left: 40%;
+  }
+  .footer .box-container .box .contactinfo h3 {
+    font-size: 2.5rem;
+    color: #000000;
+    padding-bottom: 1rem;
+    font-weight: normal;
+    font-weight: 400;
+    display: flex;
+    justify-content: left;
+    padding-left: 25%;
   }
 }
 /* footer section ends */
