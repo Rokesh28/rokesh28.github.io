@@ -1,0 +1,119 @@
+[
+  
+  {
+    "name": "AI-Powered Cloud Automation with Generative AI",
+    "desc": "Improved AI-driven product recommendations by 40% using Claude 3 Sonnet (Amazon Bedrock). Automated 80% of customer interactions, including order cancellations and support inquiries, by integrating OpenAI GPT-4o. Extracted actionable insights from 10K+ customer reviews using Azure AI Text Analytics.",
+    "image": "genai",
+    "category": "ai",
+    "links": {
+      "view": "https://www.linkedin.com/in/rokeshprakash/details/projects/",
+      "code": "https://github.com/RokeshPrakash/AICloudAutomation"
+    }
+  },
+  {
+    "name": "MultiCloud DevOps & CI/CD Automation",
+    "desc": "Migrated the CloudMart eCommerce app to AWS, Google Cloud, and Azure. Accelerated deployment speed by 60% using Infrastructure as Code (IaC) with Terraform and automated CI/CD pipelines. Orchestrated containerized microservices on Kubernetes (EKS) & EC2, implementing auto-scaling and real-time data synchronization.",
+    "image": "multicloud",
+    "category": "cloud",
+    "links": {
+      "view": "https://www.linkedin.com/in/rokeshprakash/details/projects/",
+      "code": "https://github.com/RokeshPrakash/MultiCloudDevOps"
+    }
+  },
+  {
+    "name": "Multilingual Medical Chatbot",
+    "desc": "Fine-tuned LLaMA 7B with LoRA, improving medical query accuracy by 63% and terminology comprehension by 58%. Enhanced multilingual support and optimized training efficiency on Google Colab using NVIDIA CUDA on an A100 GPU.",
+    "image": "medical-chatbot1",
+    "category": "ai",
+    "links": {
+      "view": "https://www.linkedin.com/in/rokeshprakash/details/projects/",
+      "code": "https://github.com/RokeshPrakash/MedicalChatbot"
+    }
+  },
+  {
+    "name": "PageTurners E-Commerce",
+    "desc": "Developed PageTurners with ASP .NET Core MVC (.NET 8) on Azure web apps, integrating Entity Framework for CRUD operations and Stripe for secure payments. Designed a responsive UI with Bootstrap v5 and implemented the Repository Pattern, reducing configuration time by 30%.",
+    "image": "page_turner",
+    "category": "fullstack",
+    "links": {
+      "view": "https://www.linkedin.com/in/rokeshprakash/details/projects/",
+      "code": "https://github.com/RokeshPrakash/PageTurners"
+    }
+  },
+  {
+    "name": "Budget Buddy (Expense Tracker)",
+    "desc": "Built and deployed Budget Buddy, an expense-tracking app using ASP.NET Core MVC and Syncfusion on Azure. Optimized database performance with Entity Framework for a 25% speed improvement and boosted engagement by 40% with interactive data visualizations.",
+    "image": "budgetbuddy",
+    "category": "fullstack",
+    "links": {
+      "view": "https://www.linkedin.com/in/rokeshprakash/details/projects/",
+      "code": "https://github.com/RokeshPrakash/BudgetBuddy"
+    }
+  },
+  
+
+  {
+    "name": "Movie Suggestion System",
+    "desc": "Developed a movie recommendation system using Apriori, FP-Growth, and K-means clustering techniques in Python. Implemented as part of an undergraduate course project to provide personalized movie suggestions based on user preferences.",
+    "image": "movie",
+    "category": "ai",
+    "links": {
+      "view": "https://github.com/RokeshPrakash/MovieSuggestion",
+      "code": "https://github.com/RokeshPrakash/MovieSuggestion"
+    }
+  },
+  {
+    "name": "RTO Conceptual Web App",
+    "desc": "Created an ASP.NET web application using C# and ADO.NET for the Regional Transport Office. Enabled seamless vehicle registration, automatic number generation, and driver's license services to streamline the process.",
+    "image": "rto",
+    "category": "fullstack",
+    "links": {
+      "view": "https://github.com/RokeshPrakash/RTOWebApp",
+      "code": "https://github.com/RokeshPrakash/RTOWebApp"
+    }
+  },
+  {
+    "name": "Fabric Microscopy Analysis",
+    "desc": "Implemented a CNN deep-learning model for fabric microscopy, achieving 96% accuracy in identifying textile fibers and silk purity. Developed as part of a research project during an internship at Titan.",
+    "image": "dnn",
+    "category": "ai",
+    "links": {
+      "view": "https://github.com/RokeshPrakash/FabricMicroscopy",
+      "code": "https://github.com/RokeshPrakash/FabricMicroscopy"
+    }
+  },
+  {
+    "name": "Point-to-Point Measurement for Prosthetics",
+    "desc": "Developed a model for point-to-point distance measurements using OpenCV for manufacturing prosthetic legs with 0.05 precision, improving accuracy in prosthetic production.",
+    "image": "ptp",
+    "category": "cv",
+    "links": {
+      "view": "https://github.com/RokeshPrakash/ProstheticMeasurement",
+      "code": "https://github.com/RokeshPrakash/ProstheticMeasurement"
+    }
+  },
+  {
+    "name": "Roll Bonding Process Simulation",
+    "desc": "Designed a C++ program to assess displacement, stress, and strain within the roll bonding process, reducing experimental trials by 70%. Conducted during a research internship at IIT Madras.",
+    "image": "roll",
+    "category": "simulation",
+    "links": {
+      "view": "https://github.com/RokeshPrakash/RollBondingSimulation",
+      "code": "https://github.com/RokeshPrakash/RollBondingSimulation"
+    }
+  },
+  
+  
+  {
+    "name": "DigiMon Dashboard",
+    "desc": "Developed a financial dashboard with features for loans, withdrawals, and transactions, enhancing user engagement by 30% through optimized UI/UX.",
+    "image": "congruent",
+    "category": "fullstack",
+    "links": {
+      "view": "https://github.com/RokeshPrakash/DigiMon",
+      "code": "https://github.com/RokeshPrakash/DigiMon"
+    }
+  }
+  
+ 
+]

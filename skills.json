@@ -1,0 +1,150 @@
+
+   [
+    {
+        "name": "C#",
+        "icon": "https://img.icons8.com/color/48/000000/c-sharp-logo.png"
+    },
+     
+    {
+        "name": "C++",
+        "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
+    },
+    {
+        "name": "C",
+        "icon": "https://img.icons8.com/color/48/000000/c-programming.png"
+    },
+    
+    {
+        "name": "VB.NET",
+        "icon": "https://img.icons8.com/?size=48&id=KFKHlYZ1aOkN&format=png&color=000000"
+    },
+    {
+        "name": "Java",
+        "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "https://img.icons8.com/color/48/000000/javascript.png"
+    },
+    {
+        "name": "TypeScript",
+        "icon": "https://img.icons8.com/color/48/000000/typescript.png"
+    },
+    {
+        "name": "Python",
+        "icon": "https://img.icons8.com/color/48/000000/python.png"
+    },
+
+    {
+        "name": "ASP.NET",
+        "icon": "https://img.icons8.com/?size=48&id=1BC75jFEBED6&format=png&color=000000"
+    },
+    {
+        "name": "React",
+        "icon": "https://img.icons8.com/color/48/000000/react-native.png"
+    },
+    {
+        "name": "Node.js",
+        "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
+    },
+    {
+        "name": "Entity Framework",
+        "icon": "https://img.icons8.com/ios-filled/48/3E7EFF/database.png"
+    },
+    {
+        "name": "LINQ",
+        "icon": "https://img.icons8.com/ios-filled/48/0078D7/data.png"
+    },
+    {
+        "name": "REST API",
+        "icon": "https://img.icons8.com/?size=48&id=45057&format=png&color=000000"
+    },
+
+
+    {
+        "name": "Azure",
+        "icon": "https://img.icons8.com/color/48/000000/azure-1.png"
+    },
+    {
+        "name": "AWS",
+        "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
+    },
+    {
+        "name": "AWS EC2",
+        "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
+    },
+    {
+        "name": "AWS S3",
+        "icon": "https://img.icons8.com/color/48/000000/amazon-s3.png"
+    },
+    {
+        "name": "AWS EKS",
+        "icon": "https://img.icons8.com/color/48/000000/kubernetes.png"
+    },
+    {
+        "name": "AWS DynamoDB",
+        "icon": "https://img.icons8.com/?size=48&id=11973&format=png&color=000000"
+    },
+    {
+        "name": "GCP",
+        "icon": "https://img.icons8.com/color/48/000000/google-cloud.png"
+    },
+    {
+        "name": "Amazon Bedrock",
+        "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
+    },
+
+    {
+        "name": "CI/CD",
+        "icon": "https://img.icons8.com/?size=48&id=BejoiOeRfYSo&format=png&color=000000"
+    },
+    {
+        "name": "Azure DevOps",
+        "icon": "https://img.icons8.com/color/48/000000/azure-1.png"
+    },
+    {
+        "name": "AWS CodePipeline",
+        "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
+    },
+    {
+        "name": "Terraform",
+        "icon": "https://img.icons8.com/color/48/000000/terraform.png"
+    },
+    {
+        "name": "Docker",
+        "icon": "https://img.icons8.com/color/48/000000/docker.png"
+    },
+    {
+        "name": "Kubernetes",
+        "icon": "https://img.icons8.com/color/48/000000/kubernetes.png"
+    },
+
+
+    {
+        "name": "SQL",
+        "icon": "https://img.icons8.com/color/48/000000/sql.png"
+    },
+    {
+        "name": "MS SQL",
+        "icon": "https://img.icons8.com/color/48/000000/microsoft-sql-server.png"
+    },
+    {
+        "name": "MySQL",
+        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
+    },
+
+
+    {
+        "name": "OpenAI",
+        "icon": "https://img.icons8.com/?size=48&id=114322&format=png&color=000000"
+    },
+
+    {
+        "name": "Git",
+        "icon": "https://img.icons8.com/color/48/000000/git.png"
+    },
+    {
+        "name": "GitHub",
+        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+    }
+]
