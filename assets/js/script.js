@@ -146,8 +146,13 @@ function showSkills(skills) {
 }
 
 function showProjects(projects) {
+    // let viewButton = project.links.view ? `<a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>` : ``;
+    // let codeButton = project.links.code ? `<a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>` : ``;
+    // // let buttonsHTML = viewButton || codeButton ? `<div class="btns">${viewButton} ${codeButton}</div>` : "";
+
     let projectsContainer = document.querySelector("#work .box-container");
     let projectHTML = "";
+   
     projects.slice(0, 11).forEach(project => {
         projectHTML += `
         <div class="box tilt">
