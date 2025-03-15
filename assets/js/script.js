@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+    
     $('#menu').click(function () {
         $(this).toggleClass('fa-times');
         $('.navbar').toggleClass('nav-toggle');
@@ -200,6 +200,9 @@ fetchData("projects").then(data => {
     showProjects(data);
 });
 
+document.getElementById("number").innerHTML = '<i class="fas fa-phone"></i> +1 934-451-9676';
+
+
 // <!-- tilt js effect starts -->
 VanillaTilt.init(document.querySelectorAll(".tilt"), {
     max: 15,
@@ -235,6 +238,7 @@ document.onkeydown = function (e) {
         return false;
     }
 }
+
 
 // // Start of Tawk.to Live Chat
 // var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
