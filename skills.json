@@ -4,7 +4,15 @@
         "name": "C#",
         "icon": "https://img.icons8.com/color/48/000000/c-sharp-logo.png"
     },
-     
+    {
+        "name": "Java",
+        "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png"
+    },
+    {
+        "name": "Python",
+        "icon": "https://img.icons8.com/color/48/000000/python.png"
+    },
+
     {
         "name": "C++",
         "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
@@ -18,10 +26,7 @@
         "name": "VB.NET",
         "icon": "https://img.icons8.com/?size=48&id=KFKHlYZ1aOkN&format=png&color=000000"
     },
-    {
-        "name": "Java",
-        "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png"
-    },
+    
     {
         "name": "JavaScript",
         "icon": "https://img.icons8.com/color/48/000000/javascript.png"
@@ -30,11 +35,7 @@
         "name": "TypeScript",
         "icon": "https://img.icons8.com/color/48/000000/typescript.png"
     },
-    {
-        "name": "Python",
-        "icon": "https://img.icons8.com/color/48/000000/python.png"
-    },
-
+    
     {
         "name": "ASP.NET",
         "icon": "https://img.icons8.com/?size=48&id=1BC75jFEBED6&format=png&color=000000"
@@ -53,7 +54,7 @@
     },
     {
         "name": "LINQ",
-        "icon": "https://img.icons8.com/ios-filled/48/0078D7/data.png"
+        "icon": "https://img.icons8.com/color/48/000000/c-sharp-logo.png"
     },
     {
         "name": "REST API",
