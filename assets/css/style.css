@@ -1250,6 +1250,11 @@ form .button-area {
 .footer .box-container .box {
   flex: 1 1 25rem;
   margin: 2.5rem;
+  
+}
+.footer .box-container .box .contactinfo {
+  margin-left: 10%;
+  
 }
 .footer .box-container .box h3 {
   font-size: 2.5rem;
@@ -1257,12 +1262,25 @@ form .button-area {
   padding-bottom: 1rem;
   font-weight: normal;
   font-weight: 400;
+  display: flex;
+  justify-content: center;
+}
+.footer .box-container .box .contactinfo h3 {
+  font-size: 2.5rem;
+  color: #000000;
+  padding-bottom: 1rem;
+  font-weight: normal;
+  font-weight: 400;
+  display: flex;
+  justify-content: left;
 }
 .footer .box-container .box p {
   font-size: 1.5rem;
   color: #ccc;
   padding: 0.7rem 0;
   text-transform: none;
+  display: flex;
+  justify-content: left;
 }
 .footer .box-container .box p i {
   padding-right: 1rem;
@@ -1273,6 +1291,16 @@ form .button-area {
   color: rgb(238, 238, 238);
   padding: 0.3rem 0;
   display: block;
+ padding-left: 20%;
+}
+.footer .box-container .box .contnum p {
+  font-size: 1.5rem;
+  color: #ccc;
+  padding: 0.7rem 0;
+  text-transform: none;
+  display: flex;
+  justify-content: left;
+  /* padding-left: 27%; */
 }
 .footer .box-container .box a:hover {
   color: #ffae00;
@@ -1281,6 +1309,8 @@ form .button-area {
   display: flex;
   flex-wrap: wrap;
   padding: 1rem 0;
+  display: flex;
+  
 }
 .footer .box-container .box .share a {
   height: 4rem;
@@ -1295,6 +1325,7 @@ form .button-area {
   color: #02094b;
   border: none;
 }
+
 .footer .box-container .box .share a:hover {
   background: transparent;
   transform: scale(0.98);
