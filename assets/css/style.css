@@ -34,6 +34,7 @@
   text-transform: capitalize;
   transition: all 0.2s linear;
   z-index: 1;
+
 }
 html {
   font-size: 62.5%;
@@ -907,7 +908,7 @@ header .navbar ul li a:hover {
 /* experience section starts */
 .experience{
   position: relative;
-  z-index: 1;
+  z-index: 1 !important;
 }
 .experience .timeline {
   position: relative;
@@ -1489,7 +1490,7 @@ form .button-area {
   z-index: 1000;
 }
 #scroll-top.active {
-  top: calc(100% - 12rem);
+  top: calc(100% - 12.5rem);
 }
 /* scroll top ends */
 /* Floating chat container */
@@ -1497,6 +1498,7 @@ form .button-area {
   position: fixed;
   bottom: 20px;
   right: 20px;
+  Z-index: 1000; 
 }
 
 /* Minimized chat icon */
@@ -1511,21 +1513,80 @@ form .button-area {
   border-radius: 50%;
   cursor: pointer;
   box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
-}
+  pointer-events: auto !important; /* Ensure it receives clicks */
+  z-index: 1000 !important; /* Force highest priority */
 
+}
+#chat-icon:hover {
+  transform: scale(1.1); /* Slight bounce effect */
+  box-shadow: 0 6px 12px rgba(0, 255, 0, 0.7);
+}
 /* Chatbox window */
 #chatbox {
-  display: none;
-  width: 300px;
-  height: 400px;
+  display: flex;
+  width: 320px;
+  min-width: 250px;
+  max-width: 90vw;
+  height: 450px;
+  min-height: 300px;
+  max-height: 80vh;
   background: #222;
-  border-radius: 10px;
+  border-radius: 12px;
   color: white;
-  box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.6);
+  
   position: fixed;
   bottom: 80px;
   right: 20px;
+
   flex-direction: column;
+  pointer-events: auto;
+  animation: fadeIn 0.3s ease-in-out;
+  
+  resize: both;
+  overflow: hidden; /* Hide unnecessary scrollbars */
+  z-index: 1000;
+}
+
+/* 🔹 Top-Left Resize Handle */
+#top-left-resizer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  background: transparent;
+  cursor: nwse-resize;
+  z-index: 9999;
+}
+
+/* 🔹 Making resize better (top-left & bottom-right corners) */
+#chatbox::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: transparent;
+  bottom: 0;
+  right: 0;
+  cursor: nwse-resize;
+}
+
+#chatbox::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: transparent;
+  top: 0;
+  left: 0;
+  cursor: nwse-resize;
+}
+
+/* Chatbox animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 #chat-input-container {
   display: flex;
@@ -1533,16 +1594,24 @@ form .button-area {
   background: #111;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
+
 
 
 /* Chatbox header */
 #chat-header {
   background: green;
-  padding: 10px;
+  padding: 12px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 18px;
+  font-weight: bold;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -1551,33 +1620,85 @@ form .button-area {
   background: none;
   border: none;
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   cursor: pointer;
 }
 
 /* Chat messages */
 #messages {
+  /* display: flex; */
   flex-grow: 1;
-  padding: 10px;
+  padding: 12px;
   overflow-y: auto;
-  max-height: 300px;
+  max-height: 350px;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+#messages p {
+  width: 100%;
+  background: #333;
+  padding: 5px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  word-wrap: break-word;
+  box-shadow: 0 2px 5px rgba(0, 255, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+#messages p:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 255, 0, 0.5);
+}
+#messages p span{
+  font-weight: bold;
+  color: #00ff00; /* Green for User */
+  margin-right: 6px;
 }
 
 /* Input field */
-#userInput {
+/* #userInput {
   width: calc(100% - 60px);
   padding: 8px;
   background: #333;
   color: white;
   border: none;
   border-radius: 5px;
+} */
+#userInput {
+  flex-grow: 1;
+  padding: 10px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+}
+#sendButton {
+  width: 60px;
+  background: green;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-left: 8px;
+  transition: background 0.2s ease-in-out;
+}
+#user-label {
+  font-weight: bold;
+  color: #00ff00; /* Green for User */
+  margin-right: 6px;
+}
+#bot-label {
+  font-weight: bold;
+  color: #ffcc00; /* Yellow for Bot */
+  margin-right: 6px;
 }
 
 /* Send button */
-button {
+/* button {
   width: 50px;
   background: green;
   border: none;
   color: white;
   cursor: pointer;
-}
+} */
