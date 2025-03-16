@@ -1480,7 +1480,7 @@ form .button-area {
 #scroll-top {
   position: fixed;
   top: -140%;
-  right: 2rem;
+  left: 2rem;
   padding: 1rem 1.5rem;
   font-size: 2rem;
   background: #ffae00;
@@ -1490,14 +1490,14 @@ form .button-area {
   z-index: 1000;
 }
 #scroll-top.active {
-  top: calc(100% - 12.5rem);
+  top: calc(100% - 7rem);
 }
 /* scroll top ends */
 /* Floating chat container */
 #chat-container {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 3rem;
+  right: 3rem;
   Z-index: 1000; 
 }
 @keyframes bounce {
@@ -1638,11 +1638,11 @@ form .button-area {
 }
 #chat-popup {
   position: fixed;
-  bottom: 90px; /* Slightly above the chat icon */
+  bottom: 10rem; /* Slightly above the chat icon */
   right: 5rem; /* Near the chat icon */
   background: rgba(34, 34, 34, 0.5); 
   color: white;
-  font-size: 14px;
+  font-size: 1.5rem;
   padding: 10px 15px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);

@@ -1,0 +1,35 @@
+{
+  "name": "Rokesh Prakash",
+  "location": "New York, USA",
+  "contact": {
+    "phone": "+1 934-451-9676",
+    "email": "rokesh2897@gmail.com",
+    "linkedin": "https://linkedin.com/in/rokeshprakash",
+    "github": "https://github.com/Rokesh28",
+    "medium": "https://medium.com/@rokeshprakash"
+  },
+  "education": [
+    {
+      "institution": "Stony Brook University",
+      "degree": "Master of Science in Computer Engineering",
+      "duration": "Aug 2023 – May 2025",
+      "gpa": "3.88/4.00",
+      "location": "New York, USA"
+    },
+    {
+      "institution": "Indian Institute of Information Technology",
+      "degree": "Dual Degree - B.Tech (Mechanical Engineering) & M.Tech (Advanced Manufacturing)",
+      "duration": "Jul 2015 – May 2020",
+      "gpa": "8.59/10.00",
+      "location": "Chennai, India"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Microsoft Certified: Azure Developer Associate",
+      "duration": "Sep 2022 – Sep 2023",
+      "verification_link": "https://learn.microsoft.com/en-us/users/rokeshprakash-9512/credentials/f6ed09e654448710"
+    }
+  ]
+}
+
