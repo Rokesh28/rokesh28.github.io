@@ -85,13 +85,15 @@ function getResponse(query) {
 function toggleChat() {
     let chatbox = document.getElementById("chatbox");
     let chatIcon = document.getElementById("chat-icon");
-
+    let scrollTop = document.getElementById("scroll-top");
     if (chatbox.style.display === "none" || chatbox.style.display === "") {
         chatbox.style.display = "flex";
         chatIcon.style.display = "none";
+        scrollTop.style.opacity = 0;
     } else {
         chatbox.style.display = "none";
         chatIcon.style.display = "block";
+        scrollTop.style.opacity = 1;
     }
 }
 
