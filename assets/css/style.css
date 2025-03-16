@@ -1640,7 +1640,7 @@ form .button-area {
   position: fixed;
   bottom: 90px; /* Slightly above the chat icon */
   right: 5rem; /* Near the chat icon */
-  background: #333;
+  background: rgba(34, 34, 34, 0.5); 
   color: white;
   font-size: 14px;
   padding: 10px 15px;
