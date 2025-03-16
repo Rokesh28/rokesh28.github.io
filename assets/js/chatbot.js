@@ -1,5 +1,8 @@
 let data = {};
 
+window.onload = function () {
+    document.getElementById("chatbox").style.display = "none";
+};
 async function sendMessage() {
     const userMessage = document.getElementById("userInput").value;
      // Clear input field
@@ -34,13 +37,19 @@ async function sendMessage() {
     botLabel.textContent = "Jarvis: ";
     botLabel.style.fontWeight = "bold";
     botLabel.style.color = "#fe5858";
+    
+    // Create a div for the bot's message
     const botMsgElement = document.createElement("p");
-    botMsgElement.textContent = data.reply;
+    botMsgElement.innerHTML = data.reply.replace(/\n/g, "<br>"); // Preserve new lines
+    
+    // Apply styles to maintain word wrapping
+    botMsgElement.style.whiteSpace = "normal"; // Ensures text wraps within its container
+    botMsgElement.style.overflowWrap = "break-word"; // Breaks long words if needed
+    botMsgElement.style.wordBreak = "break-word"; // Ensures words break properly if needed
+    
     messagesDiv.appendChild(botLabel);
     messagesDiv.appendChild(botMsgElement);
-
-    // Clear input field
-    document.getElementById("userInput").value = "";
+    
 }
 
 document.getElementById("sendButton").addEventListener("click", sendMessage);
@@ -90,12 +99,49 @@ function toggleChat() {
         chatbox.style.display = "flex";
         chatIcon.style.display = "none";
         scrollTop.style.opacity = 0;
+        const messagesDiv = document.getElementById("messages");
+        const botLabel = document.createElement("div");
+        botLabel.textContent = "Jarvis:";
+        botLabel.style.fontWeight = "bold";
+        botLabel.style.color = "#fe5858";
+          // Create a div for the bot's message
+        const botMsgElement = document.createElement("p");
+        botMsgElement.innerHTML = "Hi, I'm Jarvis, Rokesh's AI assistant. How can I help you today?"; // Preserve new lines
+        
+        // Apply styles to maintain word wrapping
+        // botMsgElement.style.whiteSpace = "normal"; // Ensures text wraps within its container
+        // botMsgElement.style.overflowWrap = "break-word"; // Breaks long words if needed
+        // botMsgElement.style.wordBreak = "break-word"; // Ensures words break properly if needed
+        if(messagesDiv.children.length === 0){
+            messagesDiv.appendChild(botLabel);
+            messagesDiv.appendChild(botMsgElement);
+        }
     } else {
         chatbox.style.display = "none";
         chatIcon.style.display = "block";
         scrollTop.style.opacity = 1;
     }
 }
+document.addEventListener("DOMContentLoaded", function () {
+    const chatPopup = document.getElementById("chat-popup");
+    const chatPopupClose = document.getElementById("chat-popup-close");
+    const chatIcon = document.getElementById("chat-icon");
+
+    // Add bounce animation to chat icon
+    chatIcon.classList.add("bounce-animation");
+
+    // Show the pop-up on page load after 1 sec
+    setTimeout(() => {
+        chatPopup.style.display = "flex";
+    }, 1000);
+
+    // Stop bounce when the message is closed
+    chatPopupClose.addEventListener("click", function () {
+        chatPopup.style.display = "none";
+        chatIcon.classList.remove("bounce-animation"); // Stop bouncing
+    });
+});
+
 
 document.addEventListener("DOMContentLoaded", function () {
     const chatbox = document.getElementById("chatbox");
@@ -164,9 +210,7 @@ document.addEventListener("DOMContentLoaded", function () {
 //     if (event.key === "Enter") sendMessage();
 // }
 
-window.onload = function () {
-    document.getElementById("chatbox").style.display = "none";
-};
+
 
 
 

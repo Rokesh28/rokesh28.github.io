@@ -1500,12 +1500,25 @@ form .button-area {
   right: 20px;
   Z-index: 1000; 
 }
+@keyframes bounce {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-8px);
+  }
+}
+
+.bounce-animation {
+  animation: bounce 0.6s infinite;
+}
+
 
 /* Minimized chat icon */
 #chat-icon {
   width: 50px;
   height: 50px;
-  background: green;
+  background:rgb(104, 244, 102);
   color: white;
   font-size: 24px;
   text-align: center;
@@ -1523,7 +1536,7 @@ form .button-area {
 }
 /* Chatbox window */
 #chatbox {
-  display: flex;
+  display: none;
   width: 320px;
   min-width: 250px;
   max-width: 90vw;
@@ -1605,7 +1618,7 @@ form .button-area {
 
 /* Chatbox header */
 #chat-header {
-  background: green;
+  background: rgb(104, 244, 102,0.6);
   padding: 12px;
   display: flex;
   justify-content: space-between;
@@ -1623,6 +1636,59 @@ form .button-area {
   font-size: 20px;
   cursor: pointer;
 }
+#chat-popup {
+  position: fixed;
+  bottom: 90px; /* Slightly above the chat icon */
+  right: 5rem; /* Near the chat icon */
+  background: #333;
+  color: white;
+  font-size: 14px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.8s ease-in-out forwards;
+  max-width: 250px;
+  line-height: 1.4;
+  z-index: 1001;
+}
+/* Small arrow pointing to chat icon */
+#chat-popup::after {
+  content: "";
+  position: absolute;
+  bottom: -25px; /* Moves it below the message */
+  left: 95%;
+  transform: translateX(-50%);
+  border-width: 10px;
+  border-style: solid;
+  border-color: rgba(34, 34, 34, 0.9) transparent transparent transparent;
+}
+
+#chat-popup-close {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
 
 /* Chat messages */
 #messages {
@@ -1630,7 +1696,7 @@ form .button-area {
   flex-grow: 1;
   padding: 12px;
   overflow-y: auto;
-  max-height: 350px;
+  max-height: calc(100% - 100px);;
   font-size: 1.5rem;
   line-height: 1.5;
 }
@@ -1674,7 +1740,7 @@ form .button-area {
 }
 #sendButton {
   width: 60px;
-  background: green;
+  background: rgb(104, 244, 102,0.7);
   border: none;
   color: white;
   font-size: 16px;
