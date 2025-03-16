@@ -70,6 +70,24 @@
 </section>
 <!-- hero section ends -->
 
+<div id="chat-container">
+  <div id="chat-icon" onclick="toggleChat()">
+      💬
+  </div>
+  <div id="chatbox">
+      <div id="chat-header">
+          <span>Chatbot</span>
+          <button onclick="toggleChat()">✖</button>
+      </div>
+      <div id="messages"></div>
+      <div id="chat-input-container">
+        <input type="text" id="userInput" placeholder="Ask Me Anything..." onkeypress="handleKeyPress(event)">
+        <button id="sendButton" >Send</button>
+    </div>
+  </div>
+</div>
+
+
 
 <!-- about section starts -->
 <section class="about" id="about">
@@ -456,6 +474,7 @@
 <script type="text/javascript">
   emailjs.init('rCJeIxj2j66FpYP_7')
 </script>
+<script src="./assets/js/chatbot.js"></script>
 
 <!-- <script
       type="text/javascript"
