@@ -101,7 +101,7 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | Rokesh Prakash";
-            $("#favicon").attr("href", "assets/images/favicon.png");
+            $("#favicon").attr("href", "./assets/images/linkedin_Profile_Image.jpeg");
         }
         else {
             document.title = "Come Back To Portfolio";
@@ -112,7 +112,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["web development", "Dot Net", "Cloud Solutions", "Frontend Development", "Backend Development", "Full Stack Development"],
+    strings: ["Full Stack Development", "Dot Net", "Cloud Solutions", "Gen AI","Frontend Development", "Backend Development"],
     loop: true,
     typeSpeed: 60,
     backSpeed: 40,
