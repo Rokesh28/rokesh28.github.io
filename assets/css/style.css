@@ -413,7 +413,7 @@ header .navbar ul li a:hover {
   justify-content: center;
 }
 .about .secthead h2 {
-  font-size: 5rem;
+  font-size: 3.5rem;
   color: #fff;
   font-weight: 800;
   text-align: center;
@@ -569,7 +569,7 @@ header .navbar ul li a:hover {
 }
 .skills h2 {
   color: #fff;
-  font-size: 5rem;
+  font-size: 3.5rem;
 }
 .skills .heading span {
   color: rgb(104, 244, 102);
@@ -789,7 +789,7 @@ header .navbar ul li a:hover {
 .work h2 {
   color: #fff;
   padding: 1rem;
-  font-size: 5rem;
+  font-size: 3.5rem;
 }
 .work .heading span {
   color:  rgb(104, 244, 102);
@@ -933,7 +933,8 @@ header .navbar ul li a:hover {
   width: 50%;
 }
 .experience .heading{
-  font-size: 5rem;;
+  font-size: 3.5rem;
+  padding-bottom: 1.5rem;
 }
 .experience h2 span{
   color: rgb(104, 244, 102);
