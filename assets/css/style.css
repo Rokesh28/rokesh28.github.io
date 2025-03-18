@@ -589,7 +589,8 @@ header .navbar ul li a:hover {
 }
 .skills .container .row {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  /* grid-template-columns: repeat(6, 1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjusts columns dynamically */
   flex-wrap: wrap;
   gap: 1.8rem;
 }
@@ -621,6 +622,7 @@ header .navbar ul li a:hover {
   font-weight: 500;
   font-family: "Poppins";
   margin-left: 0.5rem;
+  text-align: center;
 }
 /* skills media queries starts*/
 @media screen and (max-width: 600px) {
