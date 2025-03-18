@@ -79,12 +79,20 @@
         "icon": "https://img.icons8.com/color/48/000000/amazon-s3.png"
     },
     {
-        "name": "AWS EKS",
+        "name": "Amazon EKS",
         "icon": "https://img.icons8.com/color/48/000000/kubernetes.png"
     },
     {
         "name": "AWS DynamoDB",
         "icon": "https://img.icons8.com/?size=48&id=11973&format=png&color=000000"
+    },
+    {
+        "name": "AWS Lambda",
+        "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
+    },
+    {
+        "name": "Google BigQuery",
+        "icon": "https://img.icons8.com/color/48/000000/google-cloud.png"
     },
     {
         "name": "GCP",
@@ -106,6 +114,22 @@
     {
         "name": "AWS CodePipeline",
         "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
+    },
+    {
+        "name": "Azure Functions",
+        "icon": "https://img.icons8.com/color/48/000000/azure-1.png"
+    },
+    {
+        "name": "Azure Web App",
+        "icon": "https://img.icons8.com/color/48/000000/azure-1.png"
+    },
+    {
+        "name": "Azure Blob Storage",
+        "icon": "https://img.icons8.com/color/48/000000/azure-1.png"
+    },
+    {
+        "name": "Azure (AKS)",
+        "icon": "https://img.icons8.com/color/48/000000/kubernetes.png"
     },
     {
         "name": "Terraform",
@@ -147,5 +171,40 @@
     {
         "name": "GitHub",
         "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+    },
+    {
+        "name": "Elasticsearch",
+        "icon": "https://img.icons8.com/color/48/000000/elasticsearch.png"
+    },
+    {
+        "name": "Logstash",
+        "icon": "https://img.icons8.com/color/48/000000/logstash.png"
+    },
+    {
+        "name": "Kibana",
+        "icon": "https://img.icons8.com/color/48/000000/kibana.png"
+    },
+    {
+        "name": "Dapper ORM",
+        "icon": "https://img.icons8.com/color/48/000000/database.png"
+    },
+    {
+        "name": "ADO.NET",
+        "icon": "https://img.icons8.com/color/48/000000/database.png"
+    },
+   
+    {
+        "name": "Design Patterns",
+        "icon": "https://img.icons8.com/color/48/000000/design.png"
+    },
+    {
+        "name": "System Design",
+        "icon": "https://img.icons8.com/color/48/000000/network.png"
+    },
+    {
+        "name": "SendGrid",
+        "icon": "https://img.icons8.com/color/48/000000/email.png"
     }
+
+    
 ]
