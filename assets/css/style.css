@@ -1338,6 +1338,15 @@ form .button-area {
   justify-content: center;
   text-align: center;
 }
+.footer .box-container .box .end b{
+  font-size: 1.6rem;
+  color: #ffae00;
+  padding: 0.7rem 0;
+  text-transform: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 .footer .box-container .box p i {
   padding-right: 1rem;
   color: #ffae00;
