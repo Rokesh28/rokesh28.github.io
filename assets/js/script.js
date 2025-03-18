@@ -52,24 +52,52 @@ $(document).ready(function () {
         }, 500, 'linear')
     });
 
+    const validateEmail = (email) => {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    };
+    const validateMobile = (mobile) => {
+        const mobileRegex = /^\+?[1-9]\d{1,14}$/;
+        return mobileRegex.test(mobile);
+    };
+
+
     // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
-        console.log("submitting");
-        emailjs.init({publicKey: "rCJeIxj2j66FpYP_7",});
-        $(submit).val('Sending...');
-        const name = $("#name").val();
-        console.log(name);
-        emailjs.sendForm('service_n23x0xh', 'template_qllqrh8', '#contact-form')
-            .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
-                document.getElementById("contact-form").reset();
-                alert(`Hi ${name}, Your message has been sent successfully! I will get back to you soon.`);
-            }, function (error) {
-                console.log('FAILED...', error);
-                alert(`Hi ${name}, Your message could not be sent. Please try again later.`);
-            });
-        $(submit).val('Send Message');
         event.preventDefault();
+        let isValid = true;
+        const email = document.getElementById("email").value.trim();
+        const mobile = document.getElementById("phone").value.trim();
+    
+        if (!validateEmail(email)) {
+            alert("Invalid Email Address!");
+            isValid = false;
+        }
+
+
+        if (mobile && !validateMobile(mobile)) {
+            alert("Invalid Mobile Number!");
+            isValid = false;
+        }
+        if(isValid){
+            console.log("submitting");
+            emailjs.init({publicKey: "rCJeIxj2j66FpYP_7",});
+            $(submit).val('Sending...');
+            const name = $("#name").val();
+            console.log(name);
+            emailjs.sendForm('service_n23x0xh', 'template_qllqrh8', '#contact-form')
+                .then(function (response) {
+                    console.log('SUCCESS!', response.status, response.text);
+                    document.getElementById("contact-form").reset();
+                    alert(`Hi ${name}, Your message has been sent successfully! I will get back to you soon.`);
+                }, function (error) {
+                    console.log('FAILED...', error);
+                    alert(`Hi ${name}, Your message could not be sent. Please try again later.`);
+                });
+            $(submit).val('Send Message');
+            
+        }
+        
     });
 
     // <!-- emailjs to mail contact form data -->

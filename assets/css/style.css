@@ -651,7 +651,7 @@ header .navbar ul li a:hover {
 }
 .education h1{
   position: relative;
-  font-size: 5rem;
+  font-size: 3.5rem;
   color: #fff;
   font-weight: 800;
   text-align: center;
@@ -660,7 +660,7 @@ header .navbar ul li a:hover {
 }
 .education .heading span {
   color: rgb(104, 244, 102);
-  font-size: 5rem;
+  font-size: 3.5rem;
 }
 .education .qoute {
   font-size: 1.5rem;
