@@ -1,43 +1,61 @@
 [
   
   {
+    "name": "Jarvis: Personal AI Chatbot",
+    "desc": "Get AI-powered assistance right here! Jarvis, my personal AI chatbot, uses RAG and OpenAI API for real-time responses. Test it out—ask about my projects, skills, or even my visa status. Designed for seamless interaction, it delivers accurate, context-aware replies.",
+    "image": "jarvis",
+    "category": "ai",
+    "links": {
+      "view": "https://rokesh28.github.io/",
+      "code": "https://github.com/Rokesh28/Jarvis-Personal-AI-Assistant/tree/main"
+    }
+  },
+  {
+    "name": "PageTurners E-Commerce",
+    "desc": "Developed PageTurners with ASP.NET Core MVC (.NET 8) on Azure web apps, integrating Entity Framework,Bootstrap v5, Stripe, SendGrid, Identity Framework. <br> To view the application hosted in Azure use the view button and try to reload for twice/thrice at 5 sec interval for the server to restart from long idle.", 
+    "image": "page_turner",
+    "category": "fullstack",
+    "links": {
+      "view": "https://pageturners.azurewebsites.net/",
+      "code": "https://github.com/Rokesh28/PageTurners"
+    }
+  },
+  {
+    "name": "AI Grading Assistant - SBU",
+    "desc": "Revolutionized grading at Stony Brook University by integrating AI into the grading tool, reducing manual effort by 80%! This AI-powered system analyzes student answers against rubrics, identifies mistakes instantly, and suggests expected marks along with personalized feedback. With automated error detection and seamless feedback submission, it accelerates grading while maintaining accuracy and fairness.",
+    "image": "crizm",
+    "category": "ai",
+    "links": {
+      "view": "",
+      "code": ""
+    }
+  },
+  
+  
+  {
+    "name": "MultiCloud Migration & CI/CD Automation",
+    "desc": "Migrated the CloudMart eCommerce app to AWS, Google Cloud, and Azure. Accelerated deployment speed by 60% using Infrastructure as Code (IaC) with Terraform and automated CI/CD pipelines. Orchestrated containerized microservices on Kubernetes (EKS) & EC2, implementing auto-scaling and real-time data synchronization.",
+    "image": "multicloud",
+    "category": "cloud",
+    "links": {
+      "view": "",
+      "code": "https://github.com/Rokesh28/cloudmart"
+    }
+  },
+  {
     "name": "AI-Powered Cloud Automation with Generative AI",
     "desc": "Improved AI-driven product recommendations by 40% using Claude 3 Sonnet (Amazon Bedrock). Automated 80% of customer interactions, including order cancellations and support inquiries, by integrating OpenAI GPT-4o. Extracted actionable insights from 10K+ customer reviews using Azure AI Text Analytics.",
     "image": "genai",
     "category": "ai",
     "links": {
-      "view": "https://www.linkedin.com/in/rokeshprakash/details/projects/",
+      "view": "",
       "code": "https://github.com/Rokesh28/cloudmart"
-    }
-  },
-  {
-    "name": "MultiCloud DevOps & CI/CD Automation",
-    "desc": "Migrated the CloudMart eCommerce app to AWS, Google Cloud, and Azure. Accelerated deployment speed by 60% using Infrastructure as Code (IaC) with Terraform and automated CI/CD pipelines. Orchestrated containerized microservices on Kubernetes (EKS) & EC2, implementing auto-scaling and real-time data synchronization.",
-    "image": "multicloud",
-    "category": "cloud",
-    "links": {
-      "view": "https://www.linkedin.com/in/rokeshprakash/details/projects/",
-      "code": "https://github.com/Rokesh28/cloudmart"
-    }
-  },
-  {
-    "name": "Multilingual Medical Chatbot",
-    "desc": "Fine-tuned LLaMA 7B with LoRA, improving medical query accuracy by 63% and terminology comprehension by 58%. Enhanced multilingual support and optimized training efficiency on Google Colab using NVIDIA CUDA on an A100 GPU.",
-    "image": "medical-chatbot1",
-    "category": "ai",
-    "links": {
-      "view": "https://www.linkedin.com/in/rokeshprakash/details/projects/",
-      "code": "https://github.com/RokeshPrakash/MedicalChatbot"
-    }
-  },
-  {
-    "name": "PageTurners E-Commerce",
-    "desc": "Developed PageTurners with ASP .NET Core MVC (.NET 8) on Azure web apps, integrating Entity Framework for CRUD operations and Stripe for secure payments. Designed a responsive UI with Bootstrap v5 and implemented the Repository Pattern, reducing configuration time by 30%.",
-    "image": "page_turner",
-    "category": "fullstack",
-    "links": {
-      "view": "https://www.linkedin.com/in/rokeshprakash/details/projects/",
-      "code": "https://github.com/Rokesh28/PageTurners"
+    },
+    "details": {
+      "tech": ["AWS", "Azure", "Google Cloud", "OpenAI", "Azure AI Text Analytics"],
+      "work":["Improved AI-driven product recommendations by 40% by integrating Claude 3 Sonnet (Amazon Bedrock) leveraging Gen AI to enhance personalized shopping experiences.",
+      "Automated 80% of customer interactions, including order cancellations and support inquiries, by integrating OpenAI GPT-4o, streamlining e-commerce customer service operations.",
+      "Extracted actionable insights from 10K+ customer reviews using Azure AI Text Analytics for sentiment analysis, enabling data-informed business decisions and product optimization."]
     }
   },
   {
@@ -46,8 +64,19 @@
     "image": "budgetbuddy",
     "category": "fullstack",
     "links": {
-      "view": "https://www.linkedin.com/in/rokeshprakash/details/projects/",
+      "view": "",
       "code": "https://github.com/Rokesh28/Budget_Buddy"
+    }
+  },
+  
+  {
+    "name": "Multilingual Medical Chatbot",
+    "desc": "Fine-tuned LLaMA 7B with LoRA, improving medical query accuracy by 63% and terminology comprehension by 58%. Enhanced multilingual support and optimized training efficiency on Google Colab using NVIDIA CUDA on an A100 GPU.",
+    "image": "medical-chatbot1",
+    "category": "ai",
+    "links": {
+      "view": "https://www.linkedin.com/in/rokeshprakash/details/projects/",
+      "code": ""
     }
   },
   
@@ -58,8 +87,8 @@
     "image": "movie",
     "category": "ai",
     "links": {
-      "view": "https://github.com/RokeshPrakash/MovieSuggestion",
-      "code": "https://github.com/RokeshPrakash/MovieSuggestion"
+      "view": "",
+      "code": ""
     }
   },
   {
@@ -68,18 +97,18 @@
     "image": "rto",
     "category": "fullstack",
     "links": {
-      "view": "https://github.com/RokeshPrakash/RTOWebApp",
+      "view": "",
       "code": "https://github.com/Rokesh28/RTO_WebApp"
     }
   },
   {
-    "name": "Fabric Microscopy Analysis",
+    "name": "Fabric Microscopy Analysis with CNN",
     "desc": "Implemented a CNN deep-learning model for fabric microscopy, achieving 96% accuracy in identifying textile fibers and silk purity. Developed as part of a research project during an internship at Titan.",
     "image": "dnn",
     "category": "ai",
     "links": {
-      "view": "https://github.com/RokeshPrakash/FabricMicroscopy",
-      "code": "https://github.com/RokeshPrakash/FabricMicroscopy"
+      "view": "",
+      "code": ""
     }
   },
   {
@@ -88,8 +117,8 @@
     "image": "ptp",
     "category": "cv",
     "links": {
-      "view": "https://github.com/RokeshPrakash/ProstheticMeasurement",
-      "code": "https://github.com/RokeshPrakash/ProstheticMeasurement"
+      "view": "",
+      "code": ""
     }
   },
   {
@@ -98,8 +127,8 @@
     "image": "roll",
     "category": "simulation",
     "links": {
-      "view": "https://github.com/RokeshPrakash/RollBondingSimulation",
-      "code": "https://github.com/RokeshPrakash/RollBondingSimulation"
+      "view": "",
+      "code": ""
     }
   },
   
@@ -110,8 +139,8 @@
     "image": "congruent",
     "category": "fullstack",
     "links": {
-      "view": "https://github.com/RokeshPrakash/DigiMon",
-      "code": "https://github.com/RokeshPrakash/DigiMon"
+      "view": "",
+      "code": ""
     }
   }
   
