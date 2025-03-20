@@ -266,6 +266,58 @@ document.onkeydown = function (e) {
 }
 
 
+// function getQueryParam(param) {
+//     let searchParams = new URLSearchParams(window.location.search);
+//     return searchParams.get(param);
+// }
+
+// function getUniqueDeviceID() {
+//     let deviceId = localStorage.getItem("device_id");
+//     if (!deviceId) {
+//         deviceId = crypto.randomUUID();
+//         localStorage.setItem("device_id", deviceId);
+//         console.log("device", deviceId);
+//     }
+//     return deviceId;
+// }
+
+// window.onload = function () {
+//     let username = getQueryParam("name"); // Capture name from URL
+//     let device_id = getUniqueDeviceID();
+//     let storedUsername = localStorage.getItem("username");
+//     let storedDeviceId = localStorage.getItem("device_id");
+//     console.log("inside");
+//     console.log("out1",storedUsername);
+//     console.log("device", storedDeviceId);
+//     // First-time visit with username in URL
+//     if (username && !storedUsername) {
+//         localStorage.setItem("username", username);
+//         localStorage.setItem("device_id", storedDeviceId);
+//         console.log(username)
+//         console.log("device", deviceId);
+//         // document.getElementById("welcome-message").innerText = "Welcome, " + username + "!";
+//     } 
+//     // Returning visitor (same device)
+//     else if (storedUsername && storedDeviceId) {
+//         console.log(storedUsername, storedDeviceId)
+//         console.log("device",storedDeviceId );
+//         // document.getElementById("welcome-message").innerText = "Welcome back, " + storedUsername + "!";
+//     } 
+//     // New device or shared link
+//     else {
+//         // document.getElementById("welcome-message").innerText = "Welcome to our website!";
+//     }
+// };
+
+const chatContainer = document.querySelector("#messages");
+
+const observer = new MutationObserver(() => {
+    chatContainer.scrollTop = chatContainer.scrollHeight;
+});
+
+// Observe changes in the chat container
+observer.observe(chatContainer, { childList: true });
+
 // // Start of Tawk.to Live Chat
 // var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 // (function () {
