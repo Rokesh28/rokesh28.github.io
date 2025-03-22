@@ -41,11 +41,4 @@ Welcome to the source code of my personal portfolio website — a place where I 
 
 🎯 Designed to be helpful, context-aware, and privacy-friendly.
 
----
-
-## 🧪 Local Setup
-
-```bash
-git clone https://github.com/Rokesh28/rokesh28.github.io.git
-cd rokesh28.github.io
 
