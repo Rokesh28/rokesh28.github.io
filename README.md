@@ -28,9 +28,9 @@ Welcome to the source code of my personal portfolio website — a place where I 
 
 ---
 
-## 🧠 About Jarvis – Your Personal AI Guide
+## 🧠 About Jarvis – Personal AI Guide
 
-> "Jarvis, tell them about me."
+> "Jarvis, tell them about Rokesh."
 
 - Built with **OpenAI's GPT** via API
 - Uses **RAG** to pull accurate context from my JSON files (skills, projects, experience, info, etc)
