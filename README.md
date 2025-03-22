@@ -1,4 +1,4 @@
-# 🌐 Rokesh Prakash – Developer Portfolio
+# 🌐 Rokesh Prakash – Portfolio
 
 Welcome to the source code of my personal portfolio website — a place where I showcase my **projects**, **skills**, **work experience**, and an integrated **AI chatbot** to guide visitors with smart responses.
 
