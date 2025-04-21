@@ -1,52 +1,53 @@
 {
-    "professional_work_experience": [
-      {
-        "company": "Stony Brook University",
-        "role": "Graduate Teaching Assistant",
-        "period": "Aug 2024 – Present",
-        "details": [
-          "Enhanced students’ understanding of C and Git by conducting interactive tutorials and simplifying complex concepts through structured presentations for the ESE 124 Programming Fundamentals course under Prof. Alex Doboli (Spring 2025).",
-          "Created lab materials, conducted lab sessions, and graded homework for ESE 224 - Advanced Programming & Data Structures at Stony Brook University (Fall 2024).",
-          "Provided additional student support during office hours under the guidance of Prof. Xin Wang."
-        ]
-      },
-      {
-        "company": "Congruent Solutions",
-        "role": "Software Engineer",
-        "period": "Jun 2021 – Dec 2022",
-        "details": [
-          "Contributed to the development of a U.S. retirement product, serving over 5M users on Azure using C#, Entity Framework, REST API, RabbitMQ, and SQL for backend and React.js, ELK for frontend integration and logging.",
-          "Boosted page response time by up to 300% by optimizing database queries with Dapper ORM, Redis, indexing strategies, and stored procedures. Conducted performance testing and ANTS profiling to identify and resolve bottlenecks.",
-          "Reduced manual data mapping effort by 60% by streamlining Excel column mapping to system objects through a React-integrated Web API in ASP.NET Core and leveraging Azure Functions.",
-          "Accelerated debugging by 40% by implementing Serilog with Elasticsearch for log monitoring, leveraging the ELK stack (Elasticsearch, Logstash, Kibana) to enhance system observability.",
-          "Automated 50% of customer email workflows by integrating SendGrid API and RabbitMQ for event-driven notification triggers.",
-          "Created an intuitive dashboard for DigiMon consolidating 10+ data streams; improved data retrieval speed by 40% for quicker decision-making.",
-          "Received 'Star of the Sprint Award' for Sprint 35, recognized for developing LTPT classification that led to a 20% increase in user engagement.",
-          "Earned the 'TEDC Kudos Award' for exceptional skills in ASP.NET, C#, MYSQL, and REST API during the TEDC training program."
-        ]
-      },
-      {
-        "company": "SVP Laser Technologies",
-        "role": "Software Engineer",
-        "period": "Jul 2020 – Jun 2021",
-        "details": [
-          "Developed a Windows-based CNC control application for 4-axis and 5-axis machines using C#, .NET Framework, WPF, Azure Cloud Services, and Entity Framework, enhancing automation and precision in advanced manufacturing.",
-          "Refined deployment speed by 60% by automating CI/CD pipelines in Azure DevOps, leveraging Docker for containerization, Azure Kubernetes Service (AKS) for orchestration, and Azure Container Registry (ACR) for image management.",
-          "Increased production by 250% by developing an automated tool path generation system in C#, integrating algorithmic optimization for efficient machining.",
-          "Improved data accessibility and enabled predictive maintenance by integrating Azure SQL Database and Azure Blob Storage for real-time analytics on historical performance metrics.",
-          "Engineered a closed-loop feedback system with EmguCV (OpenCV), improving performance by 2x and reducing runtime by 70%.",
-          "Spearheaded projects with Dr. Sathyan Subbiah from IIT Madras, integrating AI and IoT technologies into advanced manufacturing, leading to a 40% reduction in production time and a 25% increase in quality."
-        ]
-      },
-      {
-        "company": "Titan Company Limited",
-        "role": "Software Engineer Intern",
-        "period": "May 2019 – May 2020",
-        "details": [
-          "Achieved 96% accuracy in textile fiber identification using a CNN model built with Python, TensorFlow, and Keras.",
-          "Simplified fabrication for prosthetic legs using a C++ OpenCV-based measurement system with 0.05 precision."
-        ]
-      }
-    ]
-  }
-  
+  "professional_work_experience": [
+    {
+      "company": "Stony Brook University",
+      "role": "Graduate Teaching Assistant",
+      "period": "Aug 2024 – Present",
+      "details": [
+        "Instructed 100+ students in C and C++ with focus on object-oriented programming, system-level thinking, and debugging; reinforced Git fundamentals and version control workflows.",
+        "Enhanced students' understanding of C and Git by conducting interactive tutorials and simplifying complex concepts through structured presentations for the ESE 124 Programming Fundamentals course under Prof. Alex Doboli (Spring 2025).",
+        "Created lab materials, conducted lab sessions, and graded homework for ESE 224 - Advanced Programming & Data Structures at Stony Brook University (Fall 2024).",
+        "Provided additional student support during office hours under the guidance of Prof. Xin Wang."
+      ]
+    },
+    {
+      "company": "Congruent Solutions",
+      "role": "Software Engineer",
+      "period": "Jun 2021 – Dec 2022",
+      "details": [
+        "Contributed to the development of a U.S. retirement product, serving over 5M users on Azure using C#, Entity Framework, REST API, RabbitMQ, and SQL for backend and React.js, ELK for frontend integration and logging.",
+        "Revamped backend data flow across distributed services to improve page response times by 300% through performance profiling with ANTS and optimization of SQL queries, Redis caching, and indexing strategies.",
+        "Architected a serverless pipeline that reduced manual Excel column-to-object mapping effort by 60%, leveraging ASP.NET Core Web API, Azure Functions, and React.",
+        "Reduced debugging time by 40% by integrating Serilog with ELK stack (Elasticsearch, Logstash, Kibana) for real-time log monitoring and enhanced system observability.",
+        "Automated 50% of customer email workflows by integrating SendGrid API and RabbitMQ for event-driven notification triggers.",
+        "Created an intuitive dashboard for DigiMon consolidating 10+ data streams; improved data retrieval speed by 40% for quicker decision-making.",
+        "Received 'Star of the Sprint Award' for Sprint 35, recognized for developing LTPT classification that led to a 20% increase in user engagement.",
+        "Earned the 'TEDC Kudos Award' for exceptional skills in ASP.NET, C#, MYSQL, and REST API during the TEDC training program."
+      ]
+    },
+    {
+      "company": "SVP Laser Technologies",
+      "role": "Software Engineer",
+      "period": "Jun 2020 – Jun 2021",
+      "details": [
+        "Developed a Windows-based Embedded Machine Control Platform for multi-axis machines using C#, .NET Framework, WPF, and Entity Framework, enhancing automation and precision in advanced manufacturing.",
+        "Improved system accuracy by 40% by leading the development of a low-latency, real-time video processing module using C#, EmguCV, and WPF, dynamically adjusting machine parameters to enhance reliability in performance-critical environments.",
+        "Eliminated 30% of recurring defects and improved release speed by implementing test-driven development and clean code practices using MVVM architecture and unit testing across modules.",
+        "Engineered a containerized software suite, achieving 60% faster setup times and eliminating configuration errors by delivering Docker images for seamless deployment across client environments.",
+        "Increased production by 250% by developing an automated tool path generation system in C#, integrating algorithmic optimization for efficient machining.",
+        "Improved data accessibility and enabled predictive maintenance by integrating Azure SQL Database and Azure Blob Storage for real-time analytics on historical performance metrics.",
+        "Spearheaded projects with Dr. Sathyan Subbiah from IIT Madras, integrating AI and IoT technologies into advanced manufacturing, leading to a 40% reduction in production time and a 25% increase in quality."
+      ]
+    },
+    {
+      "company": "Titan Company Limited",
+      "role": "Software Engineer Intern",
+      "period": "May 2019 – May 2020",
+      "details": [
+        "Achieved 96% accuracy by developing a full stack tool for material classification using TensorFlow, Flask, and React.",
+        "Implemented a vision-based measurement tool in C++ with OpenCV, enabling 0.05-unit precision in modeling workflows."
+      ]
+    }
+  ]
+}
