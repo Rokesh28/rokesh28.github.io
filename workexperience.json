@@ -16,12 +16,12 @@
       "role": "Software Engineer",
       "period": "Jun 2021 – Dec 2022",
       "details": [
-        "Contributed to the development of a U.S. retirement product, serving over 5M users on Azure using C#, Entity Framework, REST API, RabbitMQ, and SQL for backend and React.js, ELK for frontend integration and logging.",
+        "Contributed to the development of a U.S. retirement product, serving over 5M users with C#, Entity Framework, REST API, and SQL for backend and React.js, ELK for frontend integration and logging.",
         "Revamped backend data flow across distributed services to improve page response times by 300% through performance profiling with ANTS and optimization of SQL queries, Redis caching, and indexing strategies.",
-        "Architected a serverless pipeline that reduced manual Excel column-to-object mapping effort by 60%, leveraging ASP.NET Core Web API, Azure Functions, and React.",
+        "Architected a serverless pipeline that reduced manual Excel column-to-object mapping effort by 60%, leveraging ASP.NET Core Web API",
         "Reduced debugging time by 40% by integrating Serilog with ELK stack (Elasticsearch, Logstash, Kibana) for real-time log monitoring and enhanced system observability.",
-        "Automated 50% of customer email workflows by integrating SendGrid API and RabbitMQ for event-driven notification triggers.",
-        "Created an intuitive dashboard for DigiMon consolidating 10+ data streams; improved data retrieval speed by 40% for quicker decision-making.",
+        "Redesigned legacy customer notification system into a scalable, event-driven architecture using serverless architecture, message queue, and mail service, reducing delivery latency by 80% and enabling dynamic template-driven emails across 5M+ users.",
+        "Created an intuitive dashboard for DigiMon, consolidating 10+ data streams; improved data retrieval speed by 40% for quicker decision-making.",
         "Received 'Star of the Sprint Award' for Sprint 35, recognized for developing LTPT classification that led to a 20% increase in user engagement.",
         "Earned the 'TEDC Kudos Award' for exceptional skills in ASP.NET, C#, MYSQL, and REST API during the TEDC training program."
       ]
@@ -36,7 +36,6 @@
         "Eliminated 30% of recurring defects and improved release speed by implementing test-driven development and clean code practices using MVVM architecture and unit testing across modules.",
         "Engineered a containerized software suite, achieving 60% faster setup times and eliminating configuration errors by delivering Docker images for seamless deployment across client environments.",
         "Increased production by 250% by developing an automated tool path generation system in C#, integrating algorithmic optimization for efficient machining.",
-        "Improved data accessibility and enabled predictive maintenance by integrating Azure SQL Database and Azure Blob Storage for real-time analytics on historical performance metrics.",
         "Spearheaded projects with Dr. Sathyan Subbiah from IIT Madras, integrating AI and IoT technologies into advanced manufacturing, leading to a 40% reduction in production time and a 25% increase in quality."
       ]
     },
